@@ -1,0 +1,252 @@
+<html>
+    <head>
+        <title>M. KUTLUKHAN PERKER ÇİZİYOR!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Css bağlantısı-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- Başlık İçin Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+        <!-- Orta Başlık İçin -->
+        <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@600&display=swap" rel="stylesheet">        
+        <!-- İçerik İçin Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+        <!-- Karikatür Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+            <nav id="mainNav">
+                <div id="navContainer">
+                    <a href="index.html"><img src="img/logo-130x130.png"></a>
+                    <ul id="ulTopLeft">
+                        <li><a href="index.html"><b>SON DAKİKA</b></a></li>
+                        <li><a href="gundem.html"><b>GÜNDEM</b></a></li>
+                        <li><a href="dunya.html"><b>DÜNYA</b></a></li>
+                        <li><a href="yazarlar.html"><b>YAZARLAR</b></a></li>
+                    </ul>
+                    <ul id="ulTopRight">
+                        <li><a href="ekonomi.html"><b>EKONOMİ</b></a></li>
+                        <li><a href="magazin.html"><b>MAGAZİN</b></a></li>
+                        <li><a href="spor.html"><b>SPOR</b></a></li>
+                        <li><a href="teknoloji.html"><b>TEKNOLOJİ</b></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Section Başlangıcı -->
+
+        <!-- BİRİNCİ SECTİON -->
+
+        <section class="birincisection">
+            <div id="coronaSectionContainer">
+                <div id="havadurumu">
+                    <div id="cont_27e121d4ecadbd9b0472ea259c0a609a">
+                        <script type="text/javascript" async src="https://www.theweather.com/wid_loader/27e121d4ecadbd9b0472ea259c0a609a"></script>
+                    </div>
+                </div>
+                <a href="https://interaktif.trthaber.com/koronavirus/?map=1&counter=1&table=1&news=1&info=1" target="_blank"><img src="img/corona-virus-map-link.png"></a>
+            </div>
+            <div style="clear: both;"></div>
+        </section>
+
+        
+        <!-- KARİKATÜR SECTİON -->
+        <section class="karikaturler">
+            <div class="buyukkarikatur">
+                <div class="karikaturİcerik"> 
+                    <div id="sliderkarikatur">
+                        <div class="slayt"><img src="img/karikatur/perker/buyuk/perker-buyuk-1.jpg" /></div>
+                        <div class="slayt"><img src="img/karikatur/perker/buyuk/perker-buyuk-2.jpg" /></div>
+                        <div class="slayt"><img src="img/karikatur/perker/buyuk/perker-buyuk-3.jpg" /></div>
+                        <div class="slayt"><img src="img/karikatur/perker/buyuk/perker-buyuk-4.jpg" /></div>
+                        <div class="slayt"><img src="img/karikatur/perker/buyuk/perker-buyuk-5.jpg" /></div>
+                        <div class="slayt"><img src="img/karikatur/perker/buyuk/perker-buyuk-6.jpg" /></div>
+                        <div class="slayt"><img src="img/karikatur/perker/buyuk/perker-buyuk-7.jpg" /></div>
+                        <div class="slayt"><img src="img/karikatur/perker/buyuk/perker-buyuk-8.jpg" /></div>
+                        <div class="slayt"><img src="img/karikatur/perker/buyuk/perker-buyuk-9.jpg" /></div>
+                        <div class="slayt"><img src="img/karikatur/perker/buyuk/perker-buyuk-10.jpg" /></div>
+                        <div class="slayt"><img src="img/karikatur/perker/buyuk/perker-buyuk-11.jpg" /></div>
+                        <div class="slayt"><img src="img/karikatur/perker/buyuk/perker-buyuk-12.jpg" /></div>
+                        <div class="slayt"><img src="img/karikatur/perker/buyuk/perker-buyuk-13.jpg" /></div>
+                        <div id="kontrolkarikatur">
+                            <a href="javascript:oncekiSlayt()"><img id="left" src="img/left-30.png"></a>
+                            <a href="javascript:sonrakiSlayt()"><img id="right" src="img/right-30.png"></a>             
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="karikatursecenek">
+                    <script type="text/javascript">
+        
+                        var imlocation = "img/karikatur/can-baytak/kucuk/";
+                        var currentdate = 0;
+                        var image_number = 0;
+                        function ImageArray (n) {
+                          this.length = n;
+                          for (var i =1; i <= n; i++) {
+                            this[i] = ' '
+                          }
+                        }
+                        image = new ImageArray(9)
+                        image[0] = 'im1_400x400.jpg'
+                        image[1] = 'im2_400x400.jpg'
+                        image[2] = 'im3_400x400.jpg'
+                        image[3] = 'im4_400x400.jpg'
+                        image[4] = 'im5_400x400.jpg'
+                        image[5] = 'im6_400x400.jpg'
+                        image[6] = 'im7_400x400.jpg'
+                        image[7] = 'im8_400x400.jpg'
+                        image[8] = 'im9_400x400.jpg'
+                        image[9] = 'im10_400x400.jpg'
+                        var rand = 60/image.length
+                        function randomimage() {
+                            currentdate = new Date()
+                            image_number = currentdate.getSeconds()
+                            image_number = Math.floor(image_number/rand)
+                            return(image[image_number])
+                        }
+                        document.write("<img src='" + imlocation + randomimage()+ "'>");
+                       
+                    </script>
+                    <div class="karikaturtext">
+                        <a href="can-baytak.html"><b>CAN BAYTAK ÇİZİYOR!</b></a>
+                    </div>
+                </div>
+                
+                <div class="karikatursecenek">
+                    <script type="text/javascript">
+        
+                        var imlocation = "img/karikatur/latif-demirci/kucuk/";
+                        var currentdate = 0;
+                        var image_number = 0;
+                        function ImageArray (n) {
+                          this.length = n;
+                          for (var i =1; i <= n; i++) {
+                            this[i] = ' '
+                          }
+                        }
+                        image = new ImageArray(8)
+                        image[0] = 'latif-kucuk-2.jpg'
+                        image[1] = 'latif-kucuk-3.jpg'
+                        image[2] = 'latif-kucuk-5.jpg'
+                        image[3] = 'latif-kucuk-6.jpg'
+                        image[4] = 'latif-kucuk-7.jpg'
+                        image[5] = 'latif-kucuk-1.jpg'
+                        image[6] = 'latif-kucuk-9.jpg'
+                        image[7] = 'latif-kucuk-11.jpg'
+                        image[8] = 'latif-kucuk-12.jpg'
+                        var rand = 60/image.length
+                        function randomimage() {
+                            currentdate = new Date()
+                            image_number = currentdate.getSeconds()
+                            image_number = Math.floor(image_number/rand)
+                            return(image[image_number])
+                        }
+                        document.write("<img src='" + imlocation + randomimage()+ "'>");
+                       
+                    </script>
+                    <div class="karikaturtext">
+                        <a href="latif-demirci.html"><b>LATİF DEMİRCİ ÇİZİYOR!</b></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        
+        <!-- FOOTER BAŞLANGIÇ-->
+
+        <footer>
+            <div class="footerContainer">
+                <div id="iconlar">
+                    <h2>BİZE ULAŞIN..</h2>
+                    <a href=""><img src="img/icons8-facebook-old-70.png" onmousemove="this.src='img/facebook-hover.png'" onmouseout="this.src='img/icons8-facebook-old-70.png'"></a>
+                    <a href=""><img src="img/icons8-instagram-70.png" onmousemove="this.src='img/instagram-hover.png'" onmouseout="this.src='img/icons8-instagram-70.png'"></a>
+                    <a href=""><img src="img/icons8-twitter-70.png" onmousemove="this.src='img/twitter-hover.png'" onmouseout="this.src='img/icons8-twitter-70.png'"></a>
+                    <a href=""><img src="img/icons8-play-button-70.png" onmousemove="this.src='img/play-button-hover.png'" onmouseout="this.src='img/icons8-play-button-70.png'"></a>
+                    <a href=""><img src="img/icons8-whatsapp-70.png" onmousemove="this.src='img/whatsapp-hover.png'" onmouseout="this.src='img/icons8-whatsapp-70.png'"></a>
+                    <a href="index.html"><img id="hlogo" src="img/logo-80x80.png"></a>
+                </div>
+                <div class="footerBox">
+                    <ul id="footermain">
+                        <li><a href="index.html">SON DAKİKA</a></li>
+                        <li><a href="gundem.html">GÜNDEM</a></li>
+                        <li><a href="dunya.html">DÜNYA</a></li>
+                        <li><a href="ekonomi.html">EKONOMİ</a></li>
+                        <li><a href="magazin.html">MAGAZİN</a></li>
+                        <li><a href="spor.html">SPOR</a></li>
+                        <li><a href="teknoloji.html">TEKNOLOJİ</a></li>
+                    </ul>
+                </div>
+                <div class="footerBox">
+                    <h2>ABONE OL</h2>
+                    <p>Haberlerimizden anında haberdar olmak istiyorsanız, size özel ve seçtiğiniz haberleri anasayfanızda görmek istiyorsanız hadi abone olun!</p>
+                    <form>
+                        <input type="email" name="email" placeholder="Email Adresinizi Giriniz" required><br>
+                        <input id="button" type="submit" value="ABONE OL">
+                    </form>
+                </div>
+                <div class="footerBox">
+                    <h2>GAZETELER</h2>
+                    <ul id="footergazete">
+                        <li><a href="gsabah.html">SABAH</a></li>
+                        <li><a href="sabah-ege.html">SABAH EGE</a></li>
+                        <li><a href="sabah.ankara.html">SABAH ANKARA</a></li>
+                        <li><a href="sabah-guney.html">SABAH GÜNEY</a></li>
+                        <li><a href="sabah-akdeniz.html">SABAH AKDENİZ</a></li>
+                        <li><a href="daily-sabah.html">DAİLY SABAH</a></li>
+                        <li><a href="yeni-asir.html">YENİ ASIR</a></li>
+                        <li><a href="takvim.html">TAKVİM</a></li>
+                    </ul>
+                </div>
+                <div id="copyright">
+                    &copy 2020 - TÜM HAKLARI SAKLIDIR / Selçuk Üniversitesi Final Ödevidir / Kişi veya kurumlar kurgudur /              
+                </div>
+            </div>
+        </footer>
+
+        <!--SLAYT-->
+        
+        <script>
+            "use strict";
+            var _slayt = document.getElementsByClassName("slayt");
+            var slaytSayisi = _slayt.length;
+            var slaytNo = 0;
+            var i = 0;
+          
+            slaytGoster(slaytNo);
+          
+            function sonrakiSlayt() {
+              slaytNo++;
+              slaytGoster(slaytNo);
+            }
+          
+            function oncekiSlayt() {
+              slaytNo--;
+              slaytGoster(slaytNo);
+            }
+          
+            function slaytGoster(slaytNumarasi) {
+              slaytNo = slaytNumarasi;
+          
+              if (slaytNumarasi >= slaytSayisi) slaytNo = 0;
+          
+              if (slaytNumarasi < 0) slaytNo = slaytSayisi - 1;
+          
+              for (i = 0; i < slaytSayisi; i++) {
+                _slayt[i].style.display = "none";
+              }
+          
+              _slayt[slaytNo].style.display = "block";
+          
+            }
+      </script> 
+         
+        <!-- YUKARI ÇIKMA -->
+
+        <script language="javascript" src="http://ir.sitekodlari.com/yukaricik5.js"></script>
+    </body>
+</html>
